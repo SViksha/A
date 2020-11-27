@@ -4,8 +4,8 @@
     "witness": "ed25519_sig1axk92wa4llc8w6uh60yq4arnfqunwsayjz3mdv9r9vlkr0vmwgpxcx7quyv5ajpale8q3qdjgw45dxypv7ccqpxxndt6uhckpfdmwpqn6d7a6"
   },
   "adapools": {
-  "url_png_icon_64x64": "https://raw.githubusercontent.com/SViksha/A/master/ACL64x64.png",
-  "url_png_logo": "https://raw.githubusercontent.com/SViksha/A/master/ACL500X500.png",
+  "url_png_icon_64x64": "https://raw.githubusercontent.com/SViksha/A/master/ACL64x64A.png",
+  "url_png_logo": "https://raw.githubusercontent.com/SViksha/A/master/ACL400X400A.png",
   "location": "WorldWide",
   "social": {
       "twitter_handle": "CardanoLand",
