@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "ACL-CardanoLand",
+    "motivations": "As a DRep (Delegated Representative), We believe in fostering a decentralized and inclusive ecosystem that empowers all participants to have a voice. I advocate for transparent governance, equitable distribution of resources, and decisions that prioritize the long-term sustainability of the ecosystem.\nMy goal is to drive initiatives that promote greater participation from diverse stakeholders, support small and emerging players like new SPOs (Stake Pool Operators), and ensure that our community remains resilient, innovative, and fair. Ultimately, I want to help shape a future where decentralization strengthens the network, benefiting everyone in the ecosystem",
+    "objectives": "We want to be a DRep because we are passionate about decentralization and believe in the power of community-driven governance. Having been involved with Cardano since the ITN, we are deeply dedicated to the continuous improvement of the Cardano ecosystem. On a personal level, I am committed to fostering inclusivity and transparency in decision-making. As a DRep, I aim to leverage my skills and experiences to advocate for proposals that prioritize the needs of the entire community while driving progress and innovation\n    ",
+    "paymentAddress": "",
+    "qualifications": "20 Years of Product  Development  Experience: Extensive technical expertise in building, scaling, and optimizing software,, which is crucial for understanding the underlying technology of blockchain and decentralized systems.\n10 Years of Team Management Experience: Proven leadership and decision-making skills, enabling you to effectively collaborate, communicate, and manage diverse teams and stakeholders in a decentralized governance system.\nBlockchain Experience Since 2017: Deep knowledge of blockchain technology, including hands-on experience with projects and protocols, which equips you with the technical insights necessary to evaluate proposals and make informed decisions.\nInvolvement with Cardano Since ITN: Active engagement with the Cardano community from the early stages, demonstrating a strong commitment to the ecosystem and a deep understanding of its development and governance processes.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Cardanoland",
+        "uri": "https://x.com/CardanoLand"
+      }
+    ]
+  }
+}
